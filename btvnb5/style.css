@@ -1,0 +1,343 @@
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+p{
+  font-weight: 500;
+}
+body {
+  line-height: 25px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a{
+  color:blue;
+}
+a:active{
+  color: yellow;
+}
+h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  height: 57px;
+  padding: 36px 48px;
+  /* font-weight: bold; */
+}
+header.img {
+  flex-basis: 10%;
+}
+header.divflex {
+  flex-basis: 50%;
+  text-align: right;
+  padding-right: 100px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: inline-block;
+}
+li a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: chartreuse;
+}
+.button {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+}
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 96px;
+  /* background-color: khaki; */
+  /* width: 1000px; */
+  /* float: right; */
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 500px;
+}
+#fle {
+  width: 550px;
+  height: 380px;
+  background-color: white;
+}
+.con{
+  width: 450px;
+}
+#buttonst2
+{
+  padding: 20px 0px;
+}
+.tfm {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+}
+#ui {
+  font-size: 20px;
+}
+#the {
+  line-height: 60px;
+  font-size: 55px;
+}
+.divsection3 {
+  padding: 70px 0px;
+  background-color: #f5f5f5;
+  height: 600px;
+}
+.divh2{
+  height: 100px;
+}
+.anh1{
+width: 300px;
+}
+#h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#ph2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.anh {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-around;
+  flex-direction: row;
+  /* width: 900px; */
+  /* width: 1000px;
+     */
+}
+
+.divbotton {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.but {
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+}
+.phan4 {
+  /* padding: 70px 0px; */
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.h2p4{
+  line-height: 50px;
+}
+.div4 {
+  background-color: white;
+  width: 450px;
+  height: 280px;
+}
+.imgp4 {
+  padding-right: 100px;
+  flex-basis: 10%;
+  background-color: white;
+  width: 400px;
+}
+.phan4.div4 {
+  flex-basis: 50%;
+}
+.phan5 {
+  padding: 70px 0px;
+  background-color: #f5f5f5;
+  height: 600px;
+}
+.p5{
+  height: 100px;
+}
+.h2p5 {
+  display: flex;
+  justify-content: center;
+}
+.pp5 {
+  display: flex;
+  justify-content: center;
+}
+.imgp5 {
+  display: flex;
+  justify-content: space-around;
+}
+.p5_1{
+width: 300px;
+}
+.btp5 {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.butp5 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+}
+.phan6 {
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.p6 {
+  width: 500px;
+}
+.h2p6 {
+  width: 400px;
+  height: 200px;
+}
+.phan7{
+  background-color:black;
+  height: 500px;
+}
+.h2p7{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  color: white;
+}
+/* list brands */
+
+.list-brands {
+  height: 340px;
+  background-color: black;
+  padding: 70px 0px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.list-brands > h1 {
+  color: #fff;
+  text-align: center;
+}
+.list-brands .list-brands-item {
+  display: grid;
+  grid-template-columns: repeat(6, 77px);    /* lên mạng mà học cái phân fnayf , phần này ô giaows không dạy đâu , grid lưới css ok */
+  grid-gap: 40px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 42px;
+}
+.list-brands .list-brands-item > img {
+  width: 77px;
+}
+.form {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.form > h1 {
+  font-weight: 900;
+}
+.form .google {
+  width: 300px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #000;
+  border: 3px solid #000;
+  margin-top: 36px;
+  color: #fff;
+}
+.form .google:hover {
+  transform: translateY(-2px);
+}
+.or {
+  line-height: 60px;
+}
+.form input {
+  width: 280px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 3px solid #000;
+  margin-bottom: 24px;
+  padding: 10px;
+}
+.form input:focus {
+  outline: none;
+  border: 3px solid #5551ff;
+}
+.form input:hover {
+  border: 3px solid #5551ff;
+}
+.form .new {
+  width: 300px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+}
+.form .new:hover {
+  transform: translateY(-2px);
+}
+.form p {
+  font-size: 12px;
+}
+.cuoi{
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 100px;
+  /* text-align: left; */
+}
+.column1 > h2 {
+  padding-bottom: 24px;
+}
+.column2 > h3 {
+  padding: 16px 0px;
+  font-weight: bold;
+}
+.column3 > h3 {
+  padding: 16px 0px;
+  font-weight: bold;
+}
+.column4 > h3 {
+  padding: 16px 0px;
+  font-weight: bold;
+}
+.column5 > h3 {
+  padding: 16px 0px;
+  font-weight: bold;
+}
+.list:hover {
+  text-decoration: underline;
+}
+.list{
+  padding: 14px 0px;
+}
